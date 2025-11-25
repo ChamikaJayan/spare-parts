@@ -1,0 +1,90 @@
+/* Container for the entire survey view */
+.survey-container {
+  max-width: 800px;
+  margin: 0 auto; /* Center the content */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Style each survey block */
+.survey-block {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Style the username and email */
+.survey-user-info {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* Style for question labels */
+.survey-question {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Option container to align input and labels */
+.option-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/* Input fields */
+.option-container input[type="radio"],
+.option-container input[type="text"] {
+  margin-right: 10px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+#abcinput {
+  margin-right: 10px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.abcinput {
+  margin-right: 10px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* General label for options */
+.option-container label {
+  font-size: 16px;
+}
+
+.survey-footer {
+  margin-top: 20px;
+}
+
+#submitbtn{
+  margin-top: 20px;
+  width: 100%;
+  background-color: #4CAF50; /* Green background */
+  border: none; /* Remove default border */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding inside the button */
+  text-align: center; /* Center text */
+  border-radius: 8px;
+  font-size: 15px;
+}
